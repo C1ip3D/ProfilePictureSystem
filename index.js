@@ -55,7 +55,7 @@ document.getElementById('REGsubmit').addEventListener('click', function (e) {
 
 document.getElementById('LOGsubmit').addEventListener('click', function (e) {
   e.preventDefault();
-  let username = document.getElementById('LOGemail').value;
+  let username = document.getElementById('LOGusername').value;
   let password = document.getElementById('LOGpassword').value;
   let domain = '@skyhax.lol';
   let email = username + domain;
